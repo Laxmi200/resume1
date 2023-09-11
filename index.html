@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ludochampion</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css.map">
+  <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+</head>
+
+<body>
+
+  <div class="container-fluide">
+    <div class="row">
+      <div style="max-width: 480px; height: 100%;">
+        <div class="col-12 " style="position: sticky; top: 0px; z-index: 1000;">
+          <div
+            class="w-100 bg-white shadow py-2 pe-2 ps-2 d-flex d-sm-flex align-items-center align-items-sm-center justify-content-between justify-content-sm-between"
+            style="z-index: 100; height: 70px;">
+            <div class="d-flex d-sm-flex align-items-center align-items-sm-center">
+              <a type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+                aria-controls="offcanvasScrolling"><img src="assets/media/menu.svg" alt="" width="25px"></a>
+
+              <a class="text-decoration-none" href=".home.html">
+                <span><img src="assets/media/navlogo.png" alt="logo" height="50"></span>
+              </a>
+            </div>
+
+            <a class="text-decoration-none text-white " href="home/wallet.html">
+              <div class="py-1 bg-white border px-2 text-dark d-flex align-items-center rounded-2">
+                <img src="assets/media/wallet.png" alt="" class="pe-2"><strong>0.00</strong>
+              </div>
+            </a>
+          </div>
+
+          <div class="login_menu">
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+              id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+              <div class="offcanvas-header bg-dark text-light">
+                <h5 class="offcanvas-title" id="offcanvasScrollingLabel">LoduStar</h5>
+                <button type="button" class="btn-close text-reset text-light" data-bs-dismiss="offcanvas"
+                  aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                 <div class="d-flex"><h3 class="fs-1 p-2 pe-4"><b>Hii,</b></h3><img src="assets/media/hello.svg" width="35px"></div>
+                <div class="offcanvas-body p-0">
+                  <div class="flex-wrap wrp-column ">
+
+                    <div class="d-flex flex-column  mb-3">
+
+                      <div class="position-relative">
+
+                        <a href="sidemenu/play.html"
+                          class="side-nav text-decoration-none  d-flex justify-content-between ">
+                          <picture> <img src="assets/media/ludo.png" width="50px" class="pe-3">Play</picture>
+                          <img src="assets/media/next.png" alt="">
+                        </a>
+
+                      </div>
+
+                      <div class="position-relative ">
+
+                        <a href="sidemenu/resiter.html"
+                          class=" side-nav text-decoration-none  d-flex justify-content-between ">
+                          <picture> <img src="assets/media/ludo.png" width="50px" class="pe-3">Resister</picture>
+                          <img src="assets/media/next.png" alt="">
+                        </a>
+
+                      </div>
+
+                      <div class="position-relative ">
+
+                        <a href="sidemenu/support.html"
+                          class=" side-nav text-decoration-none  d-flex justify-content-between ">
+                          <picture> <img src="assets/media/bot.png" width="50px" class="pe-3">Support
+                          </picture>
+                          <img src="assets/media/next.png" alt="">
+                        </a>
+
+                      </div>
+                      <div class="position-relative ">
+
+                        <a href="sidemenu/legal.html"
+                          class=" side-nav text-decoration-none  d-flex justify-content-between ">
+                          <picture> <img src="assets/media/google-docs.png" width="50px" class="pe-3">Legal Term
+                          </picture>
+                          <img src="assets/media/next.png" alt="">
+                        </a>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main m-3">
+            <picture>
+              <img src="assets/media/landingNew.png" alt="" width="100%">
+            </picture>
+
+            <p class="p-3 text-center" style="color: #6c757d;"><i>This Game involves an element of financial risk and
+                may
+                be addictive. Please Play responsibly and at your own risk.</i></p>
+
+
+
+
+            <div class="d-flex align-items-center">
+
+              <div class="btn btn-dark p-3 round" style="width: 80%;"><b>Play Now</b></div>
+              <div>
+                <a class="bg-primary border shadow rounded-circle d-flex align-items-center justify-content-center position-fixed text-dark"
+                  href="#" style="height: 60px; width: 60px; z-index: 10; bottom: 15px; left: 382px;">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 512 512">
+                    <style>
+                      svg {
+                        fill: #ffffff
+                      }
+                    </style>
+                    <path
+                      d="M256 48C141.1 48 48 141.1 48 256v40c0 13.3-10.7 24-24 24s-24-10.7-24-24V256C0 114.6 114.6 0 256 0S512 114.6 512 256V400.1c0 48.6-39.4 88-88.1 88L313.6 488c-8.3 14.3-23.8 24-41.6 24H240c-26.5 0-48-21.5-48-48s21.5-48 48-48h32c17.8 0 33.3 9.7 41.6 24l110.4 .1c22.1 0 40-17.9 40-40V256c0-114.9-93.1-208-208-208zM144 208h16c17.7 0 32 14.3 32 32V352c0 17.7-14.3 32-32 32H144c-35.3 0-64-28.7-64-64V272c0-35.3 28.7-64 64-64zm224 0c35.3 0 64 28.7 64 64v48c0 35.3-28.7 64-64 64H352c-17.7 0-32-14.3-32-32V240c0-17.7 14.3-32 32-32h16z" />
+                  </svg></a>
+              </div>
+            </div>
+
+          </div>
+      
+
+        <div
+          style="position: fixed; top: 0px; bottom: 0px; left: 456px; background-color: rgb(224, 224, 224); width: 10px; z-index: 5;">
+        </div>
+      </div>
+    </div>
+
+
+    <!-- right section -->
+    <div class="right_sec" style="position: fixed; left: 45rem;">
+      <div class=" right_contant">
+        <picture class="right_logo">
+          <img src="assets/media/logo.png" alt="">
+        </picture>
+        <div class="right_sec_text">
+          <h1 class="pt-5">PLAY LUDO &<b>WIN REAL CASH!</b></h1>
+        </div>
+        <div class="bottom-text align-text-bottom ">
+          <p>For best experience, open <a href="#">LudoStar.com</a> on chrome mobile</p>
+        </div>
+      </div>
+    </div>
+    <!-- right section End-->
+  </div>
+  </div>
+  </div>
+  <!--JavaScript and Jquary  -->
+
+  <script src="assets/css/bootstrap.min.css"></script>
+  <script src="assets/js/bootstrap.bundle.min.js.map"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <!-- Jquary -->
+  <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
+</body>
+
+</html>
